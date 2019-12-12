@@ -1,4 +1,4 @@
-package com.example.JustJava;
+package com.example.android.justjava;
 
 
 import android.os.Bundle;
