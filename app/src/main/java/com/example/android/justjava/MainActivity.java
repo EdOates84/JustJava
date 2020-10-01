@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import java.text.NumberFormat;
+import java.text.*
 
 /**
  * This app displays an order form to order coffee.
@@ -36,12 +37,13 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-//    public void submitOrder(View view) {
-////        int numberofCoffees = 2;
-////        display(numberofCoffees);
-//        int price = 5;
-//        displayPrice(quantity*5);
-//    }
+    // uncommenting this function.
+   public void submitOrder(View view) {
+       int numberofCoffees = 2;
+       display(numberofCoffees);
+       int price = 5;
+       displayPrice(quantity*5);
+   }
 
     public void submitOrder(View view) {
 
